@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/text_course_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="30dp"
+        android:hint="Enter Course name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/black"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/view_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@color/black"
+        android:text="View Data"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
